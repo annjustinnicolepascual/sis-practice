@@ -12,14 +12,50 @@
 	<head>
 		<title>Student Registration</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
+<style type = "text/css">
+		h1 
+		{
+			background-color: ##dfe3ee;
+		}
+		
+
+		
+		body
+		{
+   		 	
+   			background-color:#dfe3ee;
+		}
+
+
+		div
+		{
+			background-color:#dfe3ee;
+		}
+		form
+		{
+		background-color:#dfe3ee;
+		}
+
+
+		img 
+		{
+			display: block;
+    		margin-left: auto;
+   			margin-right: auto 
+		}
+
+</style>
+
+
 	</head>
 	<body>
 		<div class="container">
-			<h1 class="text-center">Create a New Account</h1>
 			<div class="col-lg-offset-3 col-lg-6">
 				<div class="well">
 					<form method="POST" action="welcome.php"
 						class="form-horizontal">
+						<h1 class="text-left">Create a New Account</h1>
+						<p>It's free and always will be.</p>
 						<div class="form-group">
 						
 							<div class="col-lg-8">
@@ -66,7 +102,7 @@
 							<div class="col-lg-offset-4 col-lg-8">
 								<button name="register"
 									class="btn btn-success">
-									Register
+									Create Account
 								</button>
 							</div>
 						</div>
