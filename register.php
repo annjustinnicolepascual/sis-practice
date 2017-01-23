@@ -13,13 +13,11 @@
 		<title>Student Registration</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
 <style type = "text/css">
-		h1 
+		head
 		{
-			background-color: ##dfe3ee;
+			background-color:#dfe3ee;
 		}
-		
 
-		
 		body
 		{
    		 	
@@ -31,6 +29,7 @@
 		{
 			background-color:#dfe3ee;
 		}
+
 		form
 		{
 		background-color:#dfe3ee;
