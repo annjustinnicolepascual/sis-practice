@@ -21,54 +21,42 @@
 					<form method="POST" action="welcome.php"
 						class="form-horizontal">
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Student ID
-							</label>
+						
 							<div class="col-lg-8">
 								<input type="text" name="sid"
 									class="form-control" placeholder="Student ID" required />
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Last Name
-							</label>
+						
 							<div class="col-lg-8">
 								<input type="text" name="ln"
 									class="form-control" placeholder="Last Name" required />
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								First Name
-							</label>
+						
 							<div class="col-lg-8">
 								<input type="text" name="fn"
 									class="form-control" placeholder="First Name"required />
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Email Address
-							</label>
+						
 							<div class="col-lg-8">
 								<input type="email" name="email"
 									class="form-control" placeholder="E-mail address"required />
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Password
-							</label>
+						
 							<div class="col-lg-8">
 								<input type="password" name="pwd"
 									class="form-control" placeholder="Password"required />
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="control-label col-lg-4">
-								Birthdate
-							</label>
+
 							<div class="col-lg-8">
 								<input type="date" name="bday"
 									class="form-control" placeholder="Birthday"required />
