@@ -6,7 +6,7 @@
 		$lastName =$_POST['ln'];
 		$firstName =$_POST['fn'];
 		$emailAddress =$_POST['email'];
-		$password =$_POST['pw'];
+		$password =$_POST['pwd'];
 		$birthDate =$_POST['bday'];
 		echo "Welcome, " . $firstName . " " . $lastName . "!<br/>" . 
 				'Your ID Number is ' . $studentNo . '. <br/>
