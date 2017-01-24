@@ -12,39 +12,7 @@
 	<head>
 		<title>Student Registration</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet" />
-<style type = "text/css">
-		head
-		{
-			background-color:#dfe3ee;
-		}
-
-		body
-		{
-   		 	
-   			background-color:#dfe3ee;
-		}
-
-
-		div
-		{
-			background-color:#dfe3ee;
-		}
-
-		form
-		{
-		background-color:#dfe3ee;
-		}
-
-
-		img 
-		{
-			display: block;
-    		margin-left: auto;
-   			margin-right: auto 
-		}
-
-</style>
-
+		<link href="css/trial.css" rel="stylesheet" />
 
 	</head>
 	<body>
@@ -53,8 +21,8 @@
 				<div class="well">
 					<form method="POST" action="welcome.php"
 						class="form-horizontal">
-						<h1 class="text-left">Create a New Account</h1>
-						<p>It's free and always will be.</p>
+						<h1 class="text-left"><b>Create a New Account</b></h1>
+					</br>
 						<div class="form-group">
 						
 							<div class="col-lg-8">
@@ -65,17 +33,18 @@
 						<div class="form-group">
 						
 							<div class="col-lg-8">
-								<input type="text" name="ln"
-									class="form-control" placeholder="Last Name" required />
+								<input type="text" name="fn"
+									class="form-control" placeholder="First Name"required />
 							</div>
 						</div>
 						<div class="form-group">
 						
 							<div class="col-lg-8">
-								<input type="text" name="fn"
-									class="form-control" placeholder="First Name"required />
+								<input type="text" name="ln"
+									class="form-control" placeholder="Last Name" required />
 							</div>
 						</div>
+						
 						<div class="form-group">
 						
 							<div class="col-lg-8">
@@ -98,7 +67,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<div class="col-lg-offset-4 col-lg-8">
+							<div class="col-lg-8">
 								<button name="register"
 									class="btn btn-success">
 									Create Account
