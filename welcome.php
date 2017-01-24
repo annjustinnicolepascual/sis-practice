@@ -1,44 +1,3 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Student Registration</title>
-		<link href="css/bootstrap.min.css" rel="stylesheet" />
-		<style type = "text/css">
-		head
-		{
-			background-color:#dfe3ee;
-		}
-
-		body
-		{
-   		 	
-   			background-color:#dfe3ee;
-		}
-
-
-		div
-		{
-			background-color:#dfe3ee;
-		}
-
-		form
-		{
-
-			background-color:#dfe3ee;
-		}
-
-
-		img 
-		{
-			display: block;
-    		margin-left: auto;
-   			margin-right: auto 
-		}
-
-</style>
-
-
-	</head>
 <?php
 	if(isset($_POST['register'])) 
 	{
@@ -49,13 +8,13 @@
 		$password =$_POST['pwd'];
 		$birthDate =$_POST['bday'];
 		
-		echo "Welcome, " . $firstName . " " . $lastName . "!<br/>" . 
-				'Your ID Number is ' . $studentNo . '. <br/>
-				Your E-mail Address is ' . $emailAddress . '. <br/>
-				Your password is ' . $password . '. <br/>
-				Your birthday is ' . $birthDate . '. <br/>
+		// echo "Welcome, " . $firstName . " " . $lastName . "!<br/>" . 
+		// 		'Your ID Number is ' . $studentNo . '. <br/>
+		// 		Your E-mail Address is ' . $emailAddress . '. <br/>
+		// 		Your password is ' . $password . '. <br/>
+		// 		Your birthday is ' . $birthDate . '. <br/>
 				
-				The time is ' . date('c');	
+		// 		The time is ' . date('c');	
 	
 	}
 
@@ -64,3 +23,29 @@
 		header('location: register.php');
 	}
 ?>
+
+<html>
+	<head>
+		<title>Student Registration</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/untitled.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="col-lg-offset-3 col-lg-6">
+		<div class="well">
+			<h1>Welcome, <?php echo $firstName . "!"?></h1>
+			Please review your account details.
+		</br>
+			ID Number: <?php echo $studentNo ?></br>
+			First Name: <?php echo $firstName ?></br>
+			Last Name: <?php echo $lastName ?></br>
+			E-mail Address: <?php echo $emailAddress ?></br>
+			Birthday: <?php echo $birthDate ?></br>
+			Password: <?php echo $password ?></br>
+
+		</div>
+		</div>
+
+
+	</body>
+</html>
